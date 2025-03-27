@@ -1,0 +1,89 @@
+{
+    "cargo-presets" :
+    [
+        {
+            "container-type" : "L",
+            "presets" :
+            [
+                {
+                    "name" : "milk",
+                    "is-hazardous" : false
+                },
+                {
+                    "name" : "fuel",
+                    "is-hazardous" : true
+                }
+            ]
+        },
+        {
+            "container-type" : "G",
+            "presets" :
+            [
+                {
+                    "name" : "nitrogen",
+                    "is-hazardous" : false
+                },
+                {
+                    "name" : "methane",
+                    "is-hazardous" : true
+                }
+            ]
+        },
+        {
+            "container-type" : "C",
+            "presets" :
+            [
+                {
+                    "name" : "banana",
+                    "is-hazardous" : false,
+                    "min-temperature" : 13.3
+                },
+                {
+                    "name" : "chocolate",
+                    "is-hazardous" : false,
+                    "min-temperature" : 18
+                },
+                {
+                    "name" : "fish",
+                    "is-hazardous" : false,
+                    "min-temperature" : 2
+                },
+                {
+                    "name" : "meat",
+                    "is-hazardous" : false,
+                    "min-temperature" : -15
+                },
+                {
+                    "name" : "ice_cream",
+                    "is-hazardous" : false,
+                    "min-temperature" : -18
+                },
+                {
+                    "name" : "frozen_pizza",
+                    "is-hazardous" : false,
+                    "min-temperature" : -30
+                },
+                {
+                    "name" : "cheese",
+                    "is-hazardous" : false,
+                    "min-temperature" : 7.2
+                },
+                {
+                    "name" : "sausages",
+                    "is-hazardous" : false,
+                    "min-temperature" : 5
+                },
+                {
+                    "name" : "butter",
+                    "is-hazardous" : false,
+                    "min-temperature" : 20.5
+                },
+                {
+                    "name" : "eggs",
+                    "is-hazardous" : false,
+                    "min-temperature" : 19
+                }
+            ]
+        }
+    ]
+}
